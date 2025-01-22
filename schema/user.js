@@ -52,7 +52,3 @@ const userSchema = mongoose.Schema({
     }
 
 })
-
-const Uschema = mongoose.model("Uschema",userSchema)
->>>>>>> 35700e10c5bcf2b3cadd5613a041d48be0bf2b5f
-module.exports = Uschema
