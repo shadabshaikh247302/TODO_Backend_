@@ -1,28 +1,29 @@
-<<<<<<< HEAD
 const { default: mongoose } = require("mongoose");
 
 const userSchema = mongoose.Schema({
-    username:{
-        type:String,
-        required:true
+    username: {
+        type: String,
+        required: true
     },
-    email:{
-        type:String,   
-        required:true,
-        unique:true
+    email: {
+        type: String,
+        required: true,
+        unique: true
     },
-    password:{
-        type:String,
-        required:true
+    password: {
+        type: String,
+        required: true
     },
-    confirm_password:{
-        type:String,
-        required:true
+    confirm_password: {
+        type: String,
+        required: true
     },
-    profilePicture:{
-        type:String
+    profilePicture: {
+        type: String
     }
+});
 
+<<<<<<< HEAD
 })
 
 const Uschema = mongoose.model("Uschema",userSchema)
@@ -52,3 +53,7 @@ const userSchema = mongoose.Schema({
     }
 
 })
+=======
+const Uschema = mongoose.model("Uschema", userSchema);
+module.exports = Uschema;
+>>>>>>> eea10cb67d5a44792ec02ef0faffac6377f02bde

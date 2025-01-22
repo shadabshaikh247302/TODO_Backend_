@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const { default: mongoose } = require("mongoose");
 
 const todoSchema = mongoose.Schema({
@@ -25,4 +25,8 @@ const todoSchema = mongoose.Schema({
 
 const TDschema = mongoose.model("TDschem",todoSchema)
 
+<<<<<<< HEAD
 module.exports = TDschema
+=======
+module.exports = TDschema
+>>>>>>> eea10cb67d5a44792ec02ef0faffac6377f02bde
